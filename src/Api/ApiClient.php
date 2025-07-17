@@ -16,7 +16,7 @@ use Tapfiliate\Api\Exceptions\ServiceUnavailableException;
 
 class ApiClient
 {
-    private const ALLOWED_METHODS = ['GET', 'POST', 'PATCH', 'DELETE'];
+    private const ALLOWED_METHODS = ['GET', 'POST', 'PATCH', 'DELETE', 'PUT'];
 
     private LoggerInterface $logger;
 
